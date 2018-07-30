@@ -1,5 +1,6 @@
 # windowtimer
 Windows batch script which sends key strokes to a specified window after specified period.
+
 usage: windowtimer TITLE SENDKEYS WAITTIME
  - TITLE: part of running windows application title
  - SENDKEYS: keystrokes which will be send to the window.
