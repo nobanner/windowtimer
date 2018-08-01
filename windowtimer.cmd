@@ -37,6 +37,9 @@ function findApp(shApp, title)
 
 function timeToSeconds(h, m, s)
 {
+	h = Number(h);
+	m = Number(m);
+	s = Number(s);
 	return (h * 60 + m) * 60 + s;
 }
 
